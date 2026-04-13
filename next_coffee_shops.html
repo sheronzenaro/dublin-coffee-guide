@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Dublin Coffee Shop Guide</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="A personal guide to some of my favourite coffee shops in Dublin. Discover cosy cafes, new spots and places worth visiting around the city.">
+        <meta name="keywords" content="coffee shops in Dublin, cosy cafes Dublin, Dublin coffee guide, places for coffee Dublin, favourite cafes Dublin">
+        <meta name="author" content="Sheron Zenaro">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;700&family=Playfair+Display:wght@400;500;600;700&family=Cormorant+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" sizes="32x32" href="images/favicon.png">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+         <div id="wrapper">
+            
+        <header>
+           
+            
+            <div class="title-bar"><h1>DUBLIN COFFEE GUIDE</h1></div>
+          
+        
+            <nav>
+                <a href="index.html">Home</a>  &nbsp; <span class="bar">|</span> &nbsp;
+                <a href="coffee_shops.html">Coffee Shops</a>  &nbsp; <span class="bar">|</span> &nbsp;
+                <a href="locations.html">Locations</a>  &nbsp; <span class="bar">|</span> &nbsp;
+                <a href="next_coffee_shops.html">Next Coffee Shops</a>  &nbsp; <span class="bar">|</span> &nbsp;
+                <a href="contact.html">Contact</a>&nbsp;&nbsp;
+            </nav>
+        </header>
+   
+        <main>
+            
+        <div class="maintwo fade-in">
+            <div class="content_box">
+            
+            <h2>- Next Coffee Shops -</h2>
+            <br>
+            <div class="next_coffee_images">
+            <p class="text_intro">Here are some coffee shops I plan to visit next. Some of them have opened recently,
+                while others were recommended to me.
+            </p>
+
+            <div class="next_coffee_images2">
+            <img src="images/lunacoffee.png" alt="colourful coffee cups at luna coffee Dublin" width="250" height="340" onclick="openLightbox(this)">
+            <p class="credit">Image Source: Luna Coffee Instagram <br>(<a href="https://www.instagram.com/luna_coffee_dublin?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">@luna_coffee_dublin</a>)</p>
+            <br>
+            <p class="next_text"> Luna Coffee is known in Dublin for its colourful cups and unique branding. It is a popular coffee shop that I hope to visit soon.</p>
+            </div>
+
+            <div class="next_coffee_images2">
+            <img src="images/volumescoffee.png" alt="minimalist interior of volumes coffee Dublin" width="250" height="340" onclick="openLightbox(this)">
+            <p class="credit">Image Source: Volumes Coffee Instagram <br>(<a href="https://www.instagram.com/volumesdublin?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">@volumesdublin</a>)</p>
+            <br>
+            <p class="next_text">Volumes Coffee is a new coffee shop in Dublin with a Scandinavian design and a minimalist atmosphere. It looks like a great place to enjoy good coffee.</p>
+            </div>
+
+            <div class="next_coffee_images2">
+            <img src="images/loverboycoffee.png" alt="coffee shop in Clontarf near the beach" width="250" height="340" onclick="openLightbox(this)">
+            <p class="credit">Image Source: Lover Boy Instagram <br><a href="https://www.instagram.com/loverboyireland?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">@loverboyireland</a></p>
+            <br>
+             <p class="next_text">Lover Boy is a stylish coffee shop located in Clontarf. A good place to grab a coffee and then go for a walk by the beach.</p>
+ 
+             </div> 
+            </div> 
+            
+
+            <div class="divider_line"></div>
+
+            <div class="rss_section">
+            <h2>- Latest Coffee News -</h2>
+            <div id="rssFeed">
+            <p>Loading coffee news...</p>
+            </div>
+            </div>
+
+            <div class="divider_line"></div>
+
+            <img src="images/vetor.png" class="vector_img" alt="illustration of a coffee cup" width="255" height="195">
+            
+        </div>
+        </div>
+        </main>
+        <footer>
+            <a href="https://instagram.com/sheronzenaro" target="_blank"><img src="images/instagram.png" alt="Instagram" width="70"></a>
+            <a href="https://www.tiktok.com/@sheronzenaro?_r=1&_t=ZS-94baYrosob7" target="_blank"><img src="images/tiktok.png" alt="TikTok" width="70"></a>
+            <a href="mailto:sheron.zenaro@hotmail.com" ><img src="images/email.png" alt="Email" width="70"></a>
+            <br>
+            <i><small>Dublin Coffee Guide | Created by Sheron Zenaro | 2026.</small></i><br>
+        
+        </footer>
+        </div>
+        <button id="back_to_top">↑</button>
+        <div id="lightbox">
+    <span id="close" onclick="closeLightbox()">X</span>
+    <img id="lightbox-img" src="#" alt="enlarged photo">
+</div>
+    </body>
+</html>    

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Dublin Coffee Shop Guide</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A personal guide to some of my favourite coffee shops in Dublin. Discover cosy cafes, new spots and places worth visiting around the city.">
+        <meta name="keywords" content="coffee shops in Dublin, cosy cafes Dublin, Dublin coffee guide, places for coffee Dublin, favourite cafes Dublin">
+        <meta name="author" content="Sheron Zenaro">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;700&family=Playfair+Display:wght@400;500;600;700&family=Cormorant+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" sizes="32x32" href="images/favicon.png">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+         <div id="wrapper">
+            
+        <header>
+           
+            
+            <div class="title-bar"><h1>DUBLIN COFFEE GUIDE</h1></div>
+          
+        
+            <nav>
+                <a href="index.html">Home</a>  &nbsp; <span class="bar">|</span> &nbsp;
+                <a href="coffee_shops.html">Coffee Shops</a>  &nbsp; <span class="bar">|</span> &nbsp;
+                <a href="locations.html">Locations</a>  &nbsp; <span class="bar">|</span> &nbsp;
+                <a href="next_coffee_shops.html">Next Coffee Shops</a>  &nbsp; <span class="bar">|</span> &nbsp;
+                <a href="contact.html">Contact</a>&nbsp;&nbsp;
+            </nav>
+        </header>
+   
+    <main>
+    <div class="main fade-in">
+
+        <img src="images/home.jpg" class="home_img" alt="coffee and pastries on a table in a Dublin café" width="250" height="471" onclick="openLightbox(this)">
+
+        <div class="text_home">
+            <h2>- About this guide -</h2>
+
+            <p>
+                Hi, I'm Sheron!
+                One of my favourite hobbies is exploring cafes around Dublin.
+                I enjoy discovering new coffee spots across the city. This website was created
+                to share some of the places I've visited and recommend cafes that are worth checking out.
+            </p>
+
+            <div class="divider_line"></div>
+
+            <a href="coffee_shops.html" class="form_button home_button">
+                - Explore Coffee Shops -
+            </a>
+
+            <div class="divider_line"></div>
+
+            <img src="images/vetor.png" class="vector_img" alt="illustration of a coffee cup" width="255" height="195">
+        </div> 
+
+        <img src="images/home2.jpg" class="home_img" alt="cup of coffee on a table" width="250" height="471" onclick="openLightbox(this)">
+        </div>
+    
+    </main>
+        <footer>
+            <a href="https://instagram.com/sheronzenaro" target="_blank"><img src="images/instagram.png" alt="Instagram" width="70"></a>
+            <a href="https://www.tiktok.com/@sheronzenaro?_r=1&_t=ZS-94baYrosob7" target="_blank"><img src="images/tiktok.png" alt="TikTok" width="70"></a>
+            <a href="mailto:sheron.zenaro@hotmail.com" ><img src="images/email.png" alt="Email" width="70"></a>
+            <br>
+            <i><small>Dublin Coffee Guide | Created by Sheron Zenaro | 2026.</small></i><br>
+   
+        
+        </footer>
+        </div>
+            <div id="lightbox">
+            <span id="close" onclick="closeLightbox()">X</span>
+            <img id="lightbox-img" src="#" alt="enlarged photo">
+        </div>
+        <button id="back_to_top">↑</button>
+    </body>
+</html>
